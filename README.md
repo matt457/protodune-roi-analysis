@@ -8,5 +8,8 @@ Procedure:
 2. Run wct on raw data with ROI
 3. Modify roi_data_parser.C and roi_bin_inclusion.C with filename of wct root output file   
 4. Run roi_data_parser.C and roi_bin_inclusion.C   
-5. Run relevant parts of Track Detection.ipynb to get efficiency
+5. Run relevant parts of Track Detection.ipynb to get efficiency   
+6. Repeat steps 3-5 to analyze a different file   
+7. Run relevant parts of Track Detection.ipynb to get average efficiency and average bin inclusion    
+
 
