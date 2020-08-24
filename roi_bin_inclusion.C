@@ -1,11 +1,11 @@
-// Parse root histogram data to csv
-// Run on root: protodune_results/protodune-data-check-roi.root
+// Get roi bin inclusion percentage from root hist
+// Modify roi filename
 #include <string>
 #include <fstream>
 
 {
     printf("ROI \n");
-    TFile f2("protodune_results/protodune-data-check-roi-11.root");
+    TFile f2("protodune_results/protodune-data-check-roi22-v5.root");
     TIter next2(f2.GetListOfKeys());
     TKey *key2;
     float mytot1 = 0.0;
